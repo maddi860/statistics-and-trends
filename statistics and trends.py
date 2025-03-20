@@ -24,7 +24,7 @@ df_new = df_co2.dropna()
 
 #using .describe() to get the summary statistics
 summary_co2 = df_co2.describe()
-#print(summary_co2)
+print(summary_co2)
 
 """
 I'm going to use the slicing method iloc, so i can have only the first and 
