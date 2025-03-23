@@ -86,7 +86,7 @@ plt.subplots_adjust(wspace = 0.3, hspace = 0.6)
 plt.savefig('middle plots')
 
 #poor countries first and last 20 years of CO2 emissions
-#VVenezuela
+#Venezuela
 plt.figure()
 plt.subplot(2, 2, 1).set_title('Venezuela CO2 emissions 1970-90')
 plt.plot(co2_ven_f20, color = 'red')
